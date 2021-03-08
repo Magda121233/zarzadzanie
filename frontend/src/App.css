@@ -1,0 +1,60 @@
+body, html, #root, .app, .container {
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(252, 248, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:#262d3a;
+
+}
+.loginForm {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ 
+.inputField {
+  padding-top: 16px;
+}
+
+.input {
+  outline: none;
+  border: solid 5px #fff;
+  border-radius: 4px;
+  color: #302e2e;
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  background: rgb(112, 204, 207);
+
+}
+
+.submitButton {
+  padding-top: 16px;
+
+
+}
+.btn {
+  width: 50%;
+
+  color: #0e0f0f;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 2px  #fff;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
